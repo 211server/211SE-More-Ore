@@ -1,0 +1,172 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <PhysicalItems>
+        <PhysicalItem>  <!-- Aluminum -->
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Aluminum</SubtypeId>
+            </Id>
+            <DisplayName>铝锭-AlI-</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\aluminum_ingot.dds</Icon>
+            <Size>
+                <X>0.072</X>
+                <Y>0.072</Y>
+                <Z>0.072</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.01</Volume>
+            <Model>Models\Ingots\platinum_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>铝-Al</IconSymbol>
+            <MinimalPricePerUnit>20</MinimalPricePerUnit>
+            <MinimumOfferAmount>10000</MinimumOfferAmount>
+            <MaximumOfferAmount>25000</MaximumOfferAmount>
+            <MinimumOrderAmount>5000</MinimumOrderAmount>
+            <MaximumOrderAmount>50000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>5000</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>50000</MaximumAcquisitionAmount>
+        </PhysicalItem>
+
+        <PhysicalItem>  <!-- Copper -->
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Copper</SubtypeId>
+            </Id>
+            <DisplayName>铜锭-CuI-</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\copper_ingot.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.112</Volume>
+            <Model>Models\Ingots\iron_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>铜-Cu</IconSymbol>
+            <MinimalPricePerUnit>850</MinimalPricePerUnit>
+            <MinimumOfferAmount>500</MinimumOfferAmount>
+            <MaximumOfferAmount>1000</MaximumOfferAmount>
+            <MinimumOrderAmount>1000</MinimumOrderAmount>
+            <MaximumOrderAmount>5000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+        </PhysicalItem>
+
+        <PhysicalItem>  <!-- Lead -->
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Lead</SubtypeId>
+            </Id>
+            <DisplayName>铅锭-PbI-</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\lead_ingot.dds</Icon>
+            <Size>
+                <X>0.072</X>
+                <Y>0.072</Y>
+                <Z>0.072</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.01</Volume>
+            <Model>Models\Ingots\platinum_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>铅-Pb</IconSymbol>
+            <MinimalPricePerUnit>420</MinimalPricePerUnit>
+            <MinimumOfferAmount>500</MinimumOfferAmount>
+            <MaximumOfferAmount>2000</MaximumOfferAmount>
+            <MinimumOrderAmount>1000</MinimumOrderAmount>
+            <MaximumOrderAmount>5000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+        </PhysicalItem>
+
+        <PhysicalItem>  <!-- Tin -->
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Tin</SubtypeId>
+            </Id>
+            <DisplayName>锡锭-SnI-</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\tin_ingot.dds</Icon>
+            <Size>
+                <X>0.072</X>
+                <Y>0.072</Y>
+                <Z>0.072</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.01</Volume>
+            <Model>Models\Ingots\platinum_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>锡-Sn</IconSymbol>
+            <MinimalPricePerUnit>125</MinimalPricePerUnit>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>5000</MaximumOfferAmount>
+            <MinimumOrderAmount>500</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>500</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>10000</MaximumAcquisitionAmount>
+        </PhysicalItem>
+
+        <PhysicalItem>  <!-- Titanium -->
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Titanium</SubtypeId>
+            </Id>
+            <DisplayName>钛锭-TiI-</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\titanium_ingot.dds</Icon>
+            <Size>
+                <X>0.072</X>
+                <Y>0.072</Y>
+                <Z>0.072</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.01</Volume>
+            <Model>Models\Ingots\iron_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>钛-Ti</IconSymbol>
+            <MinimalPricePerUnit>315</MinimalPricePerUnit>
+            <MinimumOfferAmount>500</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>1000</MinimumOrderAmount>
+            <MaximumOrderAmount>5000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+        </PhysicalItem>
+
+        <PhysicalItem>  <!-- Zinc -->
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Zinc</SubtypeId>
+            </Id>
+            <DisplayName>锌锭-ZnI-</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\zinc_ingot.dds</Icon>
+            <Size>
+                <X>0.072</X>
+                <Y>0.072</Y>
+                <Z>0.072</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.01</Volume>
+            <Model>Models\Ingots\iron_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>锌-Zn</IconSymbol>
+            <MinimalPricePerUnit>605</MinimalPricePerUnit>
+            <MinimumOfferAmount>500</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>1000</MinimumOrderAmount>
+            <MaximumOrderAmount>5000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
+        </PhysicalItem>
+    </PhysicalItems>
+</Definitions>

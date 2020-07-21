@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <PhysicalItems>
+        <PhysicalItem>  <!-- Helium -->
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Helium</SubtypeId>
+            </Id>
+            <DisplayName>氦-3</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\helium_ingot.dds</Icon>
+            <Size>
+                <X>0.072</X>
+                <Y>0.072</Y>
+                <Z>0.072</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.01</Volume>
+            <Model>Models\Components\HydrogenTankItem.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>氦-3</IconSymbol>
+            <MinimalPricePerUnit>425</MinimalPricePerUnit>
+            <MinimumOfferAmount>50</MinimumOfferAmount>
+            <MaximumOfferAmount>250</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </PhysicalItem>
+    </PhysicalItems>
+</Definitions>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Blueprints>
+        <Blueprint>  <!-- Aluminum-->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminumOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>铝矿</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Aluminum"/>
+            </Prerequisites>
+            <Results>
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Aluminum"/>
+            </Results>
+            <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>  <!-- Copper -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CopperOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>铜矿</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_Cu_copper.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Copper"/>
+            </Prerequisites>
+            <Results>
+                <Item Amount="0.6" TypeId="Ingot" SubtypeId="Copper"/>
+            </Results>
+            <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>  <!-- Lead -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LeadOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>铅矿</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_Pb_lead.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Lead"/>
+            </Prerequisites>
+            <Results>
+                <Item Amount="0.32" TypeId="Ingot" SubtypeId="Lead"/>
+            </Results>
+            <BaseProductionTimeInSeconds>0.8</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>  <!-- Tin -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TinOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>锡矿</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_Sn_tin.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Tin"/>
+            </Prerequisites>
+            <Results>
+                <Item Amount="0.7" TypeId="Ingot" SubtypeId="Tin"/>
+            </Results>
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>  <!-- Titanium -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TitaniumOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>钛矿</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_Ti_titanium.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Titanium"/>
+            </Prerequisites>
+            <Results>
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Titanium"/>
+            </Results>
+            <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>  <!-- Zinc -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ZincOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>锌矿</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_Zn_zinc.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Zinc"/>
+            </Prerequisites>
+            <Results>
+                <Item Amount="0.3" TypeId="Ingot" SubtypeId="Zinc"/>
+            </Results>
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+    </Blueprints>
+</Definitions>

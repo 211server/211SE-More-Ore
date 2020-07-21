@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Class>
+        <Id>
+            <TypeId>BlueprintClassDefinition</TypeId>
+            <SubtypeId>AdvancedStone</SubtypeId>
+        </Id>
+        <DisplayName>Advanced Stone</DisplayName>
+        <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+        <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
+        <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+        <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+    <BlueprintClasses>
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>AdvancedIngots</SubtypeId>
+            </Id>
+            <DisplayName>Advanced Ingots</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+    </BlueprintClasses>
+    <BlueprintClassEntries>
+        <Entry Class="AdvancedStone" BlueprintSubtypeId="RegolithOreToIngot"/>
+
+        <Entry Class="AdvancedIngots" BlueprintSubtypeId="AluminumOreToIngot"/>
+        <Entry Class="AdvancedIngots" BlueprintSubtypeId="CopperOreToIngot"/>
+        <Entry Class="AdvancedIngots" BlueprintSubtypeId="LeadOreToIngot"/>
+        <Entry Class="AdvancedIngots" BlueprintSubtypeId="TinOreToIngot"/>
+        <Entry Class="AdvancedIngots" BlueprintSubtypeId="TitaniumOreToIngot"/>
+        <Entry Class="AdvancedIngots" BlueprintSubtypeId="ZincOreToIngot"/>
+    </BlueprintClassEntries>
+</Definitions>
