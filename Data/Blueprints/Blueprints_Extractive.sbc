@@ -16,5 +16,21 @@
             </Results>
             <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
         </Blueprint>
+
+        <Blueprint>  <!-- Organic -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>OrganicOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>有机物</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_biomass.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Organic"/>
+            </Prerequisites>
+            <Results>
+                <Item Amount="0.001" TypeId="Ingot" SubtypeId="Carbon"/>
+            </Results>
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+        </Blueprint>
     </Blueprints>
 </Definitions>

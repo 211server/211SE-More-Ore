@@ -26,6 +26,7 @@
     </BlueprintClasses>
     <BlueprintClassEntries>
         <Entry Class="AdvancedStone" BlueprintSubtypeId="RegolithOreToIngot"/>
+        <Entry Class="AdvancedStone" BlueprintSubtypeId="OrganicOreToIngot"/>
 
         <Entry Class="AdvancedIngots" BlueprintSubtypeId="AluminumOreToIngot"/>
         <Entry Class="AdvancedIngots" BlueprintSubtypeId="CopperOreToIngot"/>

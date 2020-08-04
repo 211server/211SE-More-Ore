@@ -168,5 +168,33 @@
             <MinimumAcquisitionAmount>1000</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>5000</MaximumAcquisitionAmount>
         </PhysicalItem>
+
+        <PhysicalItem>  <!-- Carbon -->
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Carbon</SubtypeId>
+            </Id>
+            <DisplayName>碳粉-CI-</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\carbon_ingot.dds</Icon>
+            <Size>
+                <X>0.072</X>
+                <Y>0.072</Y>
+                <Z>0.072</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.01</Volume>
+            <Model>Models\Ingots\stone_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>C</IconSymbol>
+            <MinimalPricePerUnit>40</MinimalPricePerUnit>
+            <MinimumOfferAmount>1000</MinimumOfferAmount>
+            <MaximumOfferAmount>15000</MaximumOfferAmount>
+            <MinimumOrderAmount>1000</MinimumOrderAmount>
+            <MaximumOrderAmount>15000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>5000</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>25000</MaximumAcquisitionAmount>
+        </PhysicalItem>
     </PhysicalItems>
 </Definitions>
